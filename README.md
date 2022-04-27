@@ -11,12 +11,12 @@ A simple game of snake coded in 30 minutes. Developed in LUA using Love2D
 
 ### [Hotdog Emitter](/Projects/HotDogEmitter/)
 
-An odd program I made years back that emitts hotdogs (or any image you want) from a single point with various settings.
+An odd program I made years back that emitts hotdogs (or any image you want) from a single point with various settings. Developed in HTML and JS
 
 ### [Domus Herba](https://www.youtube.com/watch?v=9NyIhLWxSB0)
 
-A falling sand demo game.
+A falling sand demo game. Developed in LUA using Love2D
 
 ### [Mini Jam 74 Tech Demo](https://www.youtube.com/watch?v=V0kmpNYvidc)
 
-A project from a game jam I participated in. Uses gravity to push dust particles away from the player. The player could then collapse them into asteroids and planets. I didnt finish but learned a lot about optimization and project managment.
+A project from a game jam I participated in. Uses gravity to push dust particles away from the player. The player could then collapse them into asteroids and planets. I didnt finish but learned a lot about optimization and project managment. Developed in LUA using Love2D
