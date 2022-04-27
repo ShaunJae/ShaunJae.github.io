@@ -1,0 +1,101 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="listStyling.css">
+	</head>
+	<body>
+		<div style="background-color:#fff;z-index:5;position:absolute;left:10%;top:45%;width:30%;height:45%;border:solid black 2px;">
+			Hi! I've been busy and didn't get a chance to get much working but I'll be working on it with time. I can demonstrate all the code I have right now. This <a href="listJS.js">(listJS.js)</a> has the code to make the expandable lists. This <a href="consoleJS.js">(consoleJS.js)</a> has the code for basic command parsing which will be used in the console element. This <a href="missionJS.js">(missionJS.js)</a> has the code to create new missions. This <a href="shipJS.js">(shipJS.js)</a> creates and stores new ships. It puts them into a list called "ships" where all the data of the ship is stored as well as the element of the ships drop down list. The idea of the program is to have a fleet of ships and set of colonies which you manage transporting goods between different colonies as well as trading with others to get needed resources. Some equations for ship teirs can be found on <a href="https://www.desmos.com/calculator/mb62nkr29s">this</a> desmos graph I made. I've got the CSS working dynamicaly and everything scales relatively nicely to different sizes. It's a lot to finish and I'm in Pittsburgh so it's hard to find time to work on it. I worked on this a lot in class so marking this, as well as my main site, as my final would be great.
+		</div>
+		<div id="resourceBar">
+			Resources
+			<div id="money" class="resource top">
+				<div class="imgContainer">
+					<img src="Assets/Icons/Money.png" class="icon"/>
+				</div>
+				<span id="moneyValue" class="resourceValue verticalCenter">0,000,000,000,000</span>
+			</div>
+			<div id="ore" class="resource top">
+				<div class="imgContainer">
+					<img src="Assets/Icons/Ore.png" class="icon"/>
+				</div>
+				<span id="oreValue" class="resourceValue verticalCenter">0,000,000,000,000</span>
+			</div>
+			<div id="o2" class="resource top">
+				<div class="imgContainer">
+					<img src="Assets/Icons/O2.png" class="icon"/>
+				</div>
+				<span id="o2Value" class="resourceValue verticalCenter">0,000,000,000,000</span>
+			</div>
+			<div id="hydrogen" class="resource top">
+				<div class="imgContainer">
+					<img src="Assets/Icons/Hydrogen.png" class="icon"/>
+				</div>
+				<span id="hydrogenValue" class="resourceValue verticalCenter">0,000,000,000,000</span>
+			</div>
+			<div id="RESOURCE0" class="resource bottom">
+			
+			</div>
+			<div id="RESOURCE1" class="resource bottom">
+			
+			</div>
+			<div id="RESOURCE2" class="resource bottom">
+			
+			</div>
+			<div id="RESOURCE3" class="resource bottom">
+			
+			</div>
+		</div>
+		<div id="colonyManagment">
+			Colonies
+		</div>
+		<div id="colonyInfo">
+			Colony Info
+		</div>
+		<div id="colonyResources">
+			Colony Reosurces
+		</div>
+		<div id="currentTrade">
+			Current Trade
+			<br>
+			Send ship on trade: 
+		</div>
+		<div id="nearbyTrades">
+			Nearby Trades
+		</div>
+		<div id="colonyHangar">
+			Hangar
+			<ul class="tree">
+				<li><a href="#">Athena</a>
+					<ul>
+						<li><a href="#">Ship Info</a>
+							<ul>
+								<li>Fuel: 000</li>
+								<li>Speed: 10</li>
+								<li>Maintnence: 3</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="controlConsole">
+			Control Console
+			<div id="consoleScreen">
+				
+			</div>
+			<div id="consoleInputWrapper">
+				<input type="text" id="consoleInputField"></input><button id="consoleInputButton" onClick="consoleSubmit()">></button>
+			</div>
+		</div>
+		<div id="colonyFocus">
+			Reosurce Focus
+		</div>
+	</body>
+	<script src="game.js"></script>
+	<script src="shipJS.js"></script>
+	<script src="listJS.js"></script>
+	<script src="missionJS.js"></script>
+	<script src="consoleJS.js"></script>
+</html>
